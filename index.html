@@ -262,6 +262,11 @@ button.lv-badge.has-av{height:auto;min-height:52px;padding:4px 10px 4px 4px;gap:
 .rm-next{display:flex;align-items:center;gap:8px;margin:10px 0 0;font-size:13.5px;color:#3E484C;line-height:1.4}
 .rm-next b{color:#004F61;font-weight:900}
 .tav-mini{width:30px;height:30px;border:2px solid #fff;box-shadow:0 0 0 1px #D5E3E7}
+
+/* 2026-10-05 設計者指示：標題列下方深藍色線條移除（只留淡陰影）；「我的回收圖鑑」與各類別標題字重降一級 900 → 700 */
+.book__topbar{box-shadow:0 4px 12px rgba(0,79,97,.12)!important}
+.book__title{font-weight:700!important}
+.band__title{font-weight:700!important}
 </style></head><body><div id="root"></div><script type="module">(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))r(i);new MutationObserver(i=>{for(const o of i)if(o.type==="childList")for(const l of o.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function n(i){const o={};return i.integrity&&(o.integrity=i.integrity),i.referrerPolicy&&(o.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?o.credentials="include":i.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(i){if(i.ep)return;i.ep=!0;const o=n(i);fetch(i.href,o)}})();var Qh=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function rf(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var of={exports:{}},Fo={},lf={exports:{}},M={};/**
  * @license React
  * react.production.min.js
